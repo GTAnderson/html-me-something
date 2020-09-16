@@ -1,0 +1,90 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: rgb(120, 135, 125);
+	font-size: 66%;
+}
+
+header,
+main,
+footer {
+	background-color: rgb(255,255,255,0.5);
+	font-size: 2em;
+}
+
+header {
+	padding: 1.75em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+main h2 {
+    text-align: center;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+section {
+    margin: 1.5em 0;
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1.25em;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 1em;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.section-title {
+    color: indianred;
+}
+
+#pinkParagraph {
+    color: pink;
+}
